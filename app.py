@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Load the pre-trained model
-MODEL_PATH = 'model/brain_tumor_detector.h5'
+MODEL_PATH = 'brain_tumor_detector.h5'
 model = load_model(MODEL_PATH)
 
 # Configure upload folder
